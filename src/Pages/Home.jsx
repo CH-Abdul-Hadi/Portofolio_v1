@@ -8,6 +8,7 @@ import {
   Sparkles,
 } from "lucide-react";
 import { DotLottieReact } from "@lottiefiles/dotlottie-react";
+import heroImg from '../../public/heroImg.png'
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -42,14 +43,14 @@ const MainTitle = memo(() => (
       <span className="relative inline-block">
         <span className="absolute -inset-2 bg-gradient-to-r from-[#6366f1] to-[#00ffee] blur-2xl opacity-20"></span>
         <span className="relative bg-gradient-to-r from-white via-blue-100 to-purple-200 bg-clip-text text-transparent">
-          Frontend
+           AI
         </span>
       </span>
       <br />
       <span className="relative inline-block mt-2">
         <span className="absolute -inset-2 bg-gradient-to-r from-[#6366f1] to-[#00ffee] blur-2xl opacity-20"></span>
         <span className="relative bg-gradient-to-r from-[#6366f1] to-[#00ffee] bg-clip-text text-transparent">
-          Developer
+          ENGINEER
         </span>
       </span>
     </h1>
@@ -101,7 +102,7 @@ const TYPING_SPEED = 100;
 const ERASING_SPEED = 50;
 const PAUSE_DURATION = 2000;
 const WORDS = ["Network & Telecom Student", "Tech Enthusiast"];
-const TECH_STACK = ["React", "Javascript", "Node.js", "Tailwind"];
+const TECH_STACK = ["Python", ''];
 const SOCIAL_LINKS = [
   { icon: Github, link: "https://github.com/EkiZR" },
   { icon: Linkedin, link: "https://www.linkedin.com/in/ekizr/" },
@@ -181,7 +182,7 @@ const Home = () => {
   };
 
   return (
-    <div className="min-h-screen bg-[#030014] overflow-hidden" id="Home">
+    <div className="min-h-screen bg-gradient-to-r from-[#01615b81] to-[#000000] overflow-hidden" id="Home">
       <div
         className={`relative z-10 transition-all duration-1000 ${
           isLoaded ? "opacity-100" : "opacity-0"
@@ -279,7 +280,9 @@ const Home = () => {
                     isHovering ? "scale-105" : "scale-100"
                   }`}
                 >
-                  <DotLottieReact {...lottieOptions} />
+                  {/* <DotLottieReact {...lottieOptions} /> */}
+                  <img src={heroImg } alt="" />
+                  
                 </div>
 
                 <div

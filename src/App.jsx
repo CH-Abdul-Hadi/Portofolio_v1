@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import React, { useState } from 'react';
 import "./index.css";
-import Home from "./Pages/Home";
+import Home from "./Pages/H--legacy-peer-depsome";
 import About from "./Pages/About";
 import AnimatedBackground from "./components/Background";
 import Navbar from "./components/Navbar";
