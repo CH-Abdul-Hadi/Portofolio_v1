@@ -59,6 +59,7 @@ const ProjectPageLayout = () => (
           </a>
           . All Rights Reserved.
         </span>
+        
       </center>
     </footer>
   </>
